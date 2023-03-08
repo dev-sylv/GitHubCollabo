@@ -1,0 +1,107 @@
+.break{
+    width: 100%;
+    height: 100%;
+    background: #FAF7FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.break-hold{
+    width: 100%;
+    height: 40vh;
+    background: #FAF7FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brk{
+    width: 75%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #451A74;
+    background-image: url("/public/images/footer-bg1.png");
+    border-radius: 15px;
+}
+
+.brk h1{
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.brk button{
+    padding: 12px 40px;
+    background: transparent;
+    border-radius: 7px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .brk h1{
+        font-size: 35px;
+    }
+
+    .brk button{
+        padding: 10px 35px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .break-hold{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .brk h1{
+        font-size: 23px;
+    }
+
+    .brk button{
+        padding: 10px 30px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .break-hold{
+        width: 100%;
+        height: 25vh;
+    }
+
+    .brk h1{
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+
+    .brk button{
+        padding: 8px 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+    .break-hold{
+        width: 100%;
+        height: 23vh;
+    }
+
+    .brk h1{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .brk button{
+        padding: 6px 15px;
+    }
+
+}
