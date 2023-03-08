@@ -1,0 +1,380 @@
+.hero-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #FAF7FD;
+    /* margin-top: 30px; */
+}
+
+.hero-con{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-hero{
+    width: 55%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: cente;
+    flex-direction: column;
+}
+
+.learn{
+    font-size: 63px;
+    line-height: 70px;
+    color: #451A74;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.ind{
+    color: #caae45;
+}
+
+.get2{
+    width: 10vw;
+    height: 7vh;
+    background-color: #451A74;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.get2:hover{
+    background: transparent;
+    border: 1px solid #451A74;
+    color: #451A74;
+}
+
+.left-hero{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.left-hero img{
+    width:80%;
+    /* height: 100%; */
+}
+
+.num{
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.num-hold{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fact{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #451A74;
+    margin-bottom: px;
+}
+
+.fact h1{
+    margin: 0;
+}
+
+.fact h5{
+    margin: 0;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-con{
+        flex-direction: column;
+    }
+
+    .learn{
+        font-size: 30px;
+        line-height: 20px;
+    }
+
+    .hero-main{
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #FAF7FD;
+    }
+    
+    .hero-con{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right-hero{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .learn{
+        font-size: 50px;
+        line-height: 50px;
+        color: #451A74;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .ind{
+        color: #caae45;
+    }
+    
+    .get2{
+        width: 22vw;
+        height: 7vh;
+        background-color: #451A74;
+        margin-top: 18px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .left-hero{
+        width: 90%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .left-hero img{
+        width:70%;
+        height: 90%;
+        margin-right: 100px;
+    }
+    
+    .num{
+        width: 100%;
+        height: 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .num-hold{
+        width: 85%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .fact{
+        width: 30%;
+        height: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #451A74;
+        margin-bottom: 10px;
+        background: #FAF7FD;
+    }
+    
+    .fact h1{
+        margin: 0;
+    }
+    
+    .fact h5{
+        margin: 0;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .hero-main{
+        width: 100%;
+        height: 100vh;
+    }
+
+
+    .learn{
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+    .get2{
+        width: 28vw;
+        height: 10vh;
+    }
+
+    .left-hero{
+        width: 95%;
+        height: 50%;
+
+    }
+
+    .left-hero img{
+        margin-right: 60px;
+    }
+
+    .fact h1{
+        margin: 0;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .fact h5{
+        margin: 0;
+        font-weight: 500;
+        font-size: 13px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .hero-main{
+        width: 100%;
+        height: 100vh;
+    }
+
+
+    .learn{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .get2{
+        width: 40vw;
+        height: 11vh;
+    }
+
+    .left-hero{
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .left-hero img{
+        margin-right: 45px;
+    }
+
+    .fact h1{
+        margin: 0;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .fact h5{
+        margin: 0;
+        font-weight: 500;
+        font-size: 10px;
+        text-align: center;
+    }
+
+}
+
+.who{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #FAF7FD;
+    margin-bottom: 0;
+}
+
+.we{
+    width: 85%;
+    height: 250px;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FAF7FD;
+}
+
+.we h2{
+    font-size: 30px;
+    text-align: center;
+    color: #2a0b4b;
+}
+
+.we h4{
+    line-height: 25px;
+    color: #c2b5b5;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .we{
+        margin-top: 0;
+        height: 290px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .we{
+        margin-top: 0;
+        height: 320px;
+    }
+
+    .we h2{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .we h4{
+        line-height: 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .we h2{
+        margin-bottom: 7px;
+        font-size: 18px;
+    }
+
+    .we h4{
+        line-height: 17px;
+    }
+}
