@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
 import background from "../Assets/star-bg.jpg";
-import GlobalButton from './GlobalButton';
 
 
 const Header = () => {
@@ -16,8 +15,7 @@ const Header = () => {
                 <Subtittle>
                     Sign up for a new account today and receive $500 in profit towards your next payment
                 </Subtittle>
-                <GlobalButton
-                bgButton='bg' br="tt" bg="hh" tt="b" text="Get Started" />
+                
             </Wrapper>
         </Container>
     </div>
