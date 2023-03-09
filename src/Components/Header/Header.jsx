@@ -25,7 +25,6 @@ const Header = () => {
                 <Nav>About</Nav>
                 <Nav>Contact Us</Nav>
                 <Nav>Services</Nav>
-                <Nav>Portfolios</Nav>
             </Navigation>
             <Buttons>
                 <Login>LOGIN</Login>
@@ -49,7 +48,6 @@ const Header = () => {
                     <Nav>About</Nav>
                     <Nav>Contact Us</Nav>
                     <Nav>Services</Nav>
-                    <Nav>Portfolios</Nav>
                     <br />
                         <Login>LOGIN</Login>
                         <br />
@@ -68,7 +66,7 @@ export default Header;
 const Hamburger = styled.div`
     font-size: 30px;
     display: none;
-    color: blue;
+    color: #2a0b4b;
     cursor: pointer;
     @media screen and (max-width: 500px) {
         display: block;
@@ -101,9 +99,10 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: skyblue;
-    color: white;
+    background-color: white;
+    color: #2a0b4b;
     z-index: 999;
+    box-shadow: 0 0 3px gray;
     span{
         font-size: 70px;
         display: none;
@@ -132,7 +131,7 @@ const Navigation = styled.div`
     }
 `;
 const Nav = styled.div`
-    margin-right: 10px;
+    margin-right: 20px;
     cursor: pointer;
     @media screen and (max-width: 500px) {
         margin-bottom: 20px;
@@ -154,6 +153,7 @@ const Login = styled.div`
     background-color: #2a0b4b;
     padding: 10px 15px;
     border-radius: 5px;
+    color: white;
     @media screen and (max-width: 500px) {
         width: 150px;
         margin-left: 10px;
@@ -164,7 +164,8 @@ const Login = styled.div`
 `;
 const SignUp = styled.div`
     cursor: pointer;
-    background-color: #2a0b4b;
+    background-color: transparent;
+    border: 1px solid #2a0b4b;
     padding: 10px 15px;
     border-radius: 5px;
     @media screen and (max-width: 500px) {
