@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import background from "./Assets/star-bg.jpg";
+import background from "../Assets/star-bg.jpg";
 import GlobalButton from './GlobalButton';
 
 
